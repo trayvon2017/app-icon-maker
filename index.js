@@ -37,7 +37,7 @@ async function main() {
   for (const element of contents.images) {
     const [width, height] = element.size.split('x');
     const scale = element.scale.split('x')[0];
-    const filename = `icon-${width}@${element.scale}.${fileExt}`;
+    const filename = `icon-${width}${scale > 1 ? '@' + element.scale : ''}.${fileExt}`;
     element.filename = filename;
     const result = await sharp(sourceImage)
       .resize(scale * width, scale * height)
