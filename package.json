@@ -1,0 +1,16 @@
+{
+  "name": "ios-icon-maker",
+  "version": "1.0.0",
+  "description": "a ios icon maker",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "progress": "^2.0.3",
+    "sharp": "^0.33.5"
+  }
+}
