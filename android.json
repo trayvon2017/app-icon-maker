@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "dir": "mipmap-ldpi",
+      "size": "36x36",
+      "filename": "ic_launcher"
+    },
+    {
+      "dir": "mipmap-mdpi",
+      "size": "48x48",
+      "filename": "ic_launcher"
+    },
+    {
+      "dir": "mipmap-hdpi",
+      "size": "72x72",
+      "filename": "ic_launcher"
+    },
+    {
+      "dir": "mipmap-xhdpi",
+      "size": "96x96",
+      "filename": "ic_launcher"
+    },
+    {
+      "dir": "mipmap-xxhdpi",
+      "size": "144x144",
+      "filename": "ic_launcher"
+    },
+    {
+      "dir": "mipmap-xxxhdpi",
+      "size": "192x192",
+      "filename": "ic_launcher"
+    }
+  ]
+}
